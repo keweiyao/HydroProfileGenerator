@@ -1,0 +1,8 @@
+proj = Pb
+targ = Pb
+avg-ic = on
+Nevents = 1
+trento-args = --ncoll --b-min 5 --b-max 6 --sqrts 5020 -n 18.4 -p 0.0 -k 1.0 -w 0.7 
+tau-fs = 1.0
+hydro-args = stop=0.150 min=0.1 slpope=1.1 curvature=-0.5 zetas_max=0.08 zetas_width=0.02 zetas_t0=0.180 iskip_t=4 iskip_xy=1
+Tswitch = 0.154
