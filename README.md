@@ -14,12 +14,14 @@ Dependences: `gfortran`, `c++11` and above, `boost`, `gsl`, `hdf5`, `python3`, `
    cd trento3d && mkdir build
    cd build && cmake ..
    make install
+   cd ..
    # this will install to $HOME/.local/bin by default
 
    git clone https://github.com/keweiyao/vishnew
    cd vishnew && mkdir build
    cd build && cmake ..
    make install
+   cd ..
    # this will install to $HOME/.local/bin by default
 ```
 
