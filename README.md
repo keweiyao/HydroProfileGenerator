@@ -26,6 +26,11 @@ Dependences: `gfortran`, `c++11` and above, `boost`, `gsl`, `hdf5`, `python3`, `
 Set the path `export PATH=$PATH/$HOME/.local/bin` and `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/.local/lib` and `export XDG_DATA_HOME=$HOME/.local/share`. You can put these settings in your `~/.bashrc` and then `source ~/.bashrc`.
 
 
+Finally, clone this repo
+```bash
+   git clone https://github.com/keweiyao/HydroProfileGenerator
+   cd HydroProfileGenerator
+```
 Now, try 
 ```bash
    ./RunHydroProfile.py --working-dir=./Run @PbPb5020_config.dat
