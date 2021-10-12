@@ -33,7 +33,7 @@ with h5py.File(sys.argv[1],'r') as f:
              plt.title(name+unit)
              plt.xlabel(r"$x$ [fm]")
              plt.ylabel(r"$y$ [fm]")
-             plt.scatter(X, Y, bounds.flatten(), color='gray', alpha=.5)
+             plt.scatter(X, Y, bounds.flatten().astype(np.float), color='gray', alpha=.5)
          label = 'free-stream' if tau<=taufs else 'hydrodynamics'
          plt.suptitle(r"$\tau={:1.2f}$ [fm/c], {:s}".format(tau, label))
          plt.tight_layout(True)
