@@ -1,10 +1,10 @@
-proj = Pb
-targ = Pb
+proj = O
+targ = O
 avg-ic = on
 avg-n = 10000
 centrality-bins = 0 10
 Nevents = 1
-trento-args = --ncoll --sqrts 5020 -n 18.3 -p 0.006 -k 1.23 -w 0.96 -d 1.28
+trento-args = --ncoll --sqrts 7000 -n 20.32 -p 0.006 -k 1.23 -w 0.96 -d 1.28
 tau-fs = 1.16
 hydro-args = stop=0.1 min=0.085 slpope=0.83 curvature=-0.37 zetas_max=0.037 zetas_width=0.029 zetas_t0=0.177 iskip_t=4 iskip_xy=1
 Tswitch = 0.152
